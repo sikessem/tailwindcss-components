@@ -1,0 +1,47 @@
+{
+    "packageManager": "pnpm@7.17.1",
+    "name": "@sikessem/tailwindcss-components",
+    "version": "0.0.0",
+    "private": "true",
+    "publishConfig": {
+        "access": "public"
+    },
+    "license": "MIT",
+    "homepage": "https://npmjs.com/package/@sikessem/tailwindcss-components",
+    "repository": "https://github.com/sikessem/tailwindcss-components",
+    "description": "TailwindCSS plugin and preset for @sikessem components.",
+    "keywords": [
+        "sikessem",
+        "tailwindcss",
+        "components",
+        "plugin",
+        "vite",
+        "vitest"
+    ],
+    "author": {
+        "name": "SIGUI Kessé Emmanuel",
+        "email": "ske@sikessem.com",
+        "url": "https://sikessem.com"
+    },
+    "main": "src/plugin/index.js",
+    "types": "src/plugin/index.d.ts",
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.3",
+        "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
+        "autoprefixer": "^10.4.13",
+        "cssnano": "^5.1.14",
+        "postcss": "^8.4.19",
+        "postcss-import": "^15.0.0",
+        "postcss-nested": "^6.0.0",
+        "prettier": "^2.8.0",
+        "prettier-plugin-tailwindcss": "^0.2.0",
+        "tailwindcss": "^3.2.4",
+        "vite": "^3.2.4",
+        "vitest": "^0.25.3"
+    },
+    "scripts": {
+        "start": "vite",
+        "build": "vite build",
+        "test": "vitest run"
+    }
+}
